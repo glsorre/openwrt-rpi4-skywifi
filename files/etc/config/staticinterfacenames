@@ -1,0 +1,2 @@
+config staticinterfacenames
+	#option eth0 "12:34:56:78:90:AB"
