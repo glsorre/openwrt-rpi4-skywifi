@@ -5,7 +5,7 @@ make -C openwrt-imagebuilder-21.02.2-bcm27xx-bcm2711.Linux-x86_64 image \
        	FILES="files" \
        	EXTRA_IMAGE_NAME="pi4-skywifi"
 
-rm -rf build 
+[ -d "build" ] && rm -rf build 
 cp -r openwrt-imagebuilder-21.02.2-bcm27xx-bcm2711.Linux-x86_64/bin/targets/bcm27xx/bcm2711 build
 
 make -C openwrt-imagebuilder-21.02.2-bcm27xx-bcm2711.Linux-x86_64 clean

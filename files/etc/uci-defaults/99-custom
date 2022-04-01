@@ -1,9 +1,9 @@
 uci set network.globals.packet_steering=1
-uci commit network
 
 uci set firewall.@defaults[0].flow_offloading=1
 uci set firewall.@defaults[0].flow_offloading_hw=1
-uci commit firewall
+
+uci set irqbalance.irqbalance.enabled=1
 
 uci set network.lan.ipaddr='192.168.17.1'
 uci set network.wan=interface
@@ -12,4 +12,5 @@ uci set network.wan.proto='dhcp'
 uci set network.wan6=interface
 uci set network.wan6.ifname='eth1.101'
 uci set network.wan6.proto='dhcpv6'
-uci commit network
+
+uci commit
