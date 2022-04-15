@@ -23,7 +23,7 @@ On a ubuntu 22.04 machine clone the repo the:
 
 The images will be outputted in the `build` folder.
 
-Alternatively to a bare metal ubuntu machine you can easily boostra a virtual machine using the `./utilities/Vagrantfile`.
+Alternatively to a bare metal ubuntu machine you can easily boostrap a virtual machine using the `./utilities/Vagrantfile`.
 
 ## Performances
 
