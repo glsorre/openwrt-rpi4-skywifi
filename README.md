@@ -5,8 +5,8 @@ A simple repository with all the goodies to build a OpenWRT image for the Raspbe
 ## Hardware Requisites
 
 - Raspberry Pi 4b;
-- Ethernet over USB adapter based on **Asix ax88179** or **Realtaek rtl8153** (suggested)
-- Switch
+- Ethernet over USB adapter based on **Asix ax88179** or **Realtaek rtl8153** (suggested);
+- Switch;
 - External AP.
 
 ## Features
