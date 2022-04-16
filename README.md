@@ -12,6 +12,7 @@ A simple repository with all the goodies to build a OpenWRT image for the Raspbe
 ## Features
 
 - **MAP-T** and **VLAN ID 101** preconfigured on the Ethernet over USB interface;
+- **IRQBalance** preconfigured;
 - Driver for **Asix ax88179** and **Realtaek rtl8152** preinstalled;
 - **Static interface names** service preinstalled;
 - **luci-ssl**, **luci-app-smartdns**, **luci-app-ttyd**, **luci-app-ddns** preinstalled.
