@@ -19,7 +19,7 @@ A simple repository with all the goodies to build a OpenWRT image for the Raspbe
 
 ## Usage
 
-On a ubuntu 20.04 machine clone the repo the:
+On a ubuntu 24.04 machine clone the repo the:
 
 - `./setup.sh`
 - `./build.sh`
